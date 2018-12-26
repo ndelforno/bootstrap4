@@ -28,15 +28,27 @@
           </div>
           <div id="div-forms">
             <form>
-              <div>
-                <span>Type your Email and Password here:</span>
+              <div class="modal-body">
+                <div>
+                  <span>Type your Email and Password here:</span>
+                </div>
+                <input type="text" class="form-control" placeholder="email" required>
+                <input type="Password" class="form-control" placeholder="Password" required>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
               </div>
-              <input type="text" class="form-control" placeholder="email" required>
-              <input type="Password" class="form-control" placeholder="Password" required>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Remember me
-                </label>
+              <div class="modal-footer">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+                  </div>
+                  <div class="col-sm-6">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Sign up</button>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
